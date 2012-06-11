@@ -1,12 +1,12 @@
-# revision 20631
+# revision 26276
 # category Package
 # catalog-ctan /info/digests/tugboat/hyphenex
-# catalog-date 2010-12-01 01:12:49 +0100
+# catalog-date 2012-02-03 11:53:44 +0100
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-hyphenex
-Version:	20101201
-Release:	2
+Version:	20120203
+Release:	1
 Summary:	Generate a hyphenation exceptions file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/digests/tugboat/hyphenex
