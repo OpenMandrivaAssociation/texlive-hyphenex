@@ -55,3 +55,20 @@ translation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120203-1
++ Revision: 804849
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101201-2
++ Revision: 752673
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101201-1
++ Revision: 718652
+- texlive-hyphenex
+- texlive-hyphenex
+- texlive-hyphenex
+
