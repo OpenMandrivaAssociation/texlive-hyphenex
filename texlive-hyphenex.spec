@@ -1,11 +1,11 @@
-# revision 26276
+# revision 29349
 # category Package
 # catalog-ctan /info/digests/tugboat/hyphenex
-# catalog-date 2012-02-03 11:53:44 +0100
+# catalog-date 2012-05-16 13:34:59 +0200
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-hyphenex
-Version:	20120203
+Version:	20120516
 Release:	1
 Summary:	Generate a hyphenation exceptions file
 Group:		Publishing
@@ -55,20 +55,3 @@ translation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120203-1
-+ Revision: 804849
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101201-2
-+ Revision: 752673
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101201-1
-+ Revision: 718652
-- texlive-hyphenex
-- texlive-hyphenex
-- texlive-hyphenex
-
