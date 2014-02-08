@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphenex
 Version:	20120203
-Release:	1
+Release:	2
 Summary:	Generate a hyphenation exceptions file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/digests/tugboat/hyphenex
