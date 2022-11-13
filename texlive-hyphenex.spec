@@ -1,18 +1,12 @@
-# revision 29349
-# category Package
-# catalog-ctan /info/digests/tugboat/hyphenex
-# catalog-date 2012-05-16 13:34:59 +0200
-# catalog-license other-free
-# catalog-version undef
 Name:		texlive-hyphenex
-Version:	20190228
+Version:	57387
 Release:	1
 Summary:	Generate a hyphenation exceptions file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/digests/tugboat/hyphenex
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenex.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenex.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenex.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +21,12 @@ file, together with a recent copy of the article and its
 translation.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -48,7 +42,7 @@ translation.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
