@@ -3,7 +3,7 @@ Version:	57387
 Release:	2
 Summary:	Generate a hyphenation exceptions file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/digests/tugboat/hyphenex
+URL:		https://www.ctan.org/tex-archive/info/digests/tugboat/hyphenex
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyphenex.source.r%{version}.tar.xz
